@@ -39,9 +39,6 @@ class Model {
       .where({ id })
       .del()
   }
-
 }
-
-export const User = new Model('users')
 
 export default Model
